@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/layMonCardTop"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Type"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:id="@+id/tvMonCardType"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:id="@+id/tvMonCardName"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:id="@+id/layMonACHP"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AC"
+                android:textColor="@android:color/white"
+                />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="15"
+                android:textColor="@android:color/black"
+                android:background="#f7f5cd"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/tvMonAC"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HP"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f7f5cd"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:id="@+id/tvMonHp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Con"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/tvMonFCB"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Con Desc"
+        android:id="@+id/tvMonFC"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Con"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/tvMonSCB"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Con Desc"
+        android:id="@+id/tvMonSC"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third Con"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/tvMonTCB"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third Con Desc"
+        android:id="@+id/tvMonTC"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count as Hero"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:id="@+id/tvMonVilage"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:paddingBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/layMonCardDamage1"
+        >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="Attack1"
+            android:id="@+id/tvMonAtk1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ATTACK"
+                android:textColor="@android:color/white"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="#f7f5cd"
+                android:textSize="18sp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:textStyle="bold"
+                android:text="+8"
+                android:id="@+id/tvMonCardAtac1"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DAMAGE"
+                android:textColor="@android:color/white"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="22dp"
+                android:background="#f7f5cd"
+                android:text="+8"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:paddingTop="4dp"
+                android:id="@+id/tvMonCardDmgH1"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="18dp"
+                android:background="#f7f5cd"
+                android:text="+8"
+                android:id="@+id/tvMonCardDmgM1"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/layMonCardDamage2"
+        >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="Attack1"
+            android:id="@+id/tvMonAtk2"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="#f7f5cd"
+                android:textSize="18sp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:textStyle="bold"
+                android:text="+8"
+                android:id="@+id/tvMonCardAtac2"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="22dp"
+                android:background="#f7f5cd"
+                android:text="+8"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:paddingTop="4dp"
+                android:id="@+id/tvMonCardDmgH2"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="18dp"
+                android:background="#f7f5cd"
+                android:text="+8"
+                android:id="@+id/tvMonCardDmgM2"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#f7f5cd"
+        android:id="@+id/layMonCardBotton"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/tvMonCardBotton"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

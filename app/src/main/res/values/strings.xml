@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AshardalonTranslated</string>
+    
+    <string-array name="levels">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

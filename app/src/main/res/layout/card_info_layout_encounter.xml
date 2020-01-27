@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/layEncCardTop"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Type"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:id="@+id/tvEncCardType"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:id="@+id/tvEncCardName"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="8dp"
+        android:id="@+id/layEncCardLore"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Lore"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/tvEncCardLore"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:background="#f7f5cd"
+        android:id="@+id/layEncCardSpecial"
+        >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special text "
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:id="@+id/tvEncCardSpecial"
+            />
+        
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:text="Card Effect"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/tvEncCardText"
+        android:layout_marginTop="4dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:paddingBottom="4dp"
+        android:id="@+id/layEncCardDamage"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ATTACK"
+                android:textColor="@android:color/white"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="#f7f5cd"
+                android:textSize="18sp"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:textStyle="bold"
+                android:text="+8"
+                android:id="@+id/tvEncCardAtac"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DAMAGE"
+                android:textColor="@android:color/white"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="22dp"
+                android:background="#f7f5cd"
+                android:text="+8"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:paddingTop="4dp"
+                android:id="@+id/tvEncCardDmgH"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="18dp"
+                android:background="#f7f5cd"
+                android:text="+8"
+                android:id="@+id/tvEncCardDmgM"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#f7f5cd"
+        android:id="@+id/layEncCardBotton"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/tvEncCardBotton"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
